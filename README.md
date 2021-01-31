@@ -1,7 +1,7 @@
 # Daily-practice
 日常练习编程的仓库，包含日常练习的代码和笔记总结，一些学习资源等......
 
-## 我的个人博客 <*http://www.mingtibet.top*>
+## 我的个人博客 <http://www.mingtibet.top>
 >hello markdown, this is my first time to write someting with markdown
 
 **加粗的字体**
@@ -39,3 +39,4 @@ name | age | sex
 tony|20|男
 lucy|18|女
 
+====
