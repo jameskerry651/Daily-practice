@@ -25,7 +25,7 @@ git是有 **工作区**，**暂存区**，**本地仓库**，**远程仓库**的
 4.新建一个test.txt 文件在文件夹下，然后在bash输入（查看状态）
 >git status
 
-![git status](pictures\git_status.png)
+![git status](https://github.com/jameskerry651/Daily-practice/tree/main/notes/pictures/git_status.png)
 我们可以看到有一个未追踪的文件 test.txt
 
 我们输入
@@ -34,7 +34,7 @@ git是有 **工作区**，**暂存区**，**本地仓库**，**远程仓库**的
 然后再查看状态
 >git status
 
-![](pictures\git_status2.png)
+![](https://github.com/jameskerry651/Daily-practice/tree/main/notes/pictures/git_status2.png)
 此时的test.txt从工作区进入到暂存区，当然工作区的文件依旧存在
 
 现在我们要第一次提交文件
@@ -52,16 +52,15 @@ git是有 **工作区**，**暂存区**，**本地仓库**，**远程仓库**的
 >git log
 >git reflog
 
-![日志](pictures\git_reflog.png)
+![日志](https://github.com/jameskerry651/Daily-practice/tree/main/notes/pictures/git_reflog.png)
 可以看到我们的提交记录，假如说我们的修改错误，需要滚回第一次提交的代码
 >git reset --hard HEAD^
 
 表示回滚一次，现在就回到了第一次提交的代码了
-![回滚](pictures\git_reset.png)
+![回滚](https://github.com/jameskerry651/Daily-practice/tree/main/notes/pictures/git_reset.png)
 假如说回到前10次修改的代码呢？
 >git reset --hard HEAD^10
 
-<center> 以上是本地仓库的使用方法</center>
 
 ---
 ##git 关于远程仓库的使用
